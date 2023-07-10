@@ -1,0 +1,80 @@
+.Azul{
+    background-color: blue;
+    color: white;
+}
+.Rojo{
+    background-color: red;
+    color: white;
+}
+.Naranja{
+    background-color: orange;
+    color: white;
+}
+.Verde{
+    background-color: green;
+    color: white;
+}
+.Violeta{
+    background-color: violet;
+    color: white;
+}
+.Rosa{
+    background-color: rosybrown;
+    color: white;
+}
+.Amarillo{
+    background-color: yellow;
+    color: white;
+}
+
+.acertado {
+    color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width:1000px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+option {
+    font-size: 16px;
+}
+
